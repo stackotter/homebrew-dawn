@@ -1,12 +1,9 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Dawn < Formula
   desc "Dawn, a WebGPU implementation"
   homepage "https://dawn.googlesource.com/dawn/"
-  url "https://github.com/stackotter/dawn-builds/releases/download/v0.1.0/build.zip"
-  version "ed840583"
-  sha256 "645bfeef7e6ad1d0401337ff9b25debb0fe5411281edf48542e5ec4b0763fa91"
+  url "https://github.com/stackotter/dawn-builds/releases/download/v0.1.1/build.zip"
+  version "ed840583-0.1.1"
+  sha256 "2aea5150b2f3235b0a6a584dfa8e63c76985c4ed3e6d49715c92551730ad963d"
   license "Apache-2.0"
 
   def install
